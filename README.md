@@ -7,7 +7,7 @@
 - test해보고 있는 현 상황을 표로 정리하였습니다.
 1. model nums = 2
 
-<No enesemble>
+<No ensemble>
 |learning_rate\epoch| 50 |   100   |   150   |   200   |
 |:------:|:---:|:---:|:---:|:---:|
 0.01    |  96.3 |  95.54  | ?  | ?  | 
