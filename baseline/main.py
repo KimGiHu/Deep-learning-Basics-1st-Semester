@@ -8,8 +8,8 @@ import random
 import numpy as np
 
 model_num = 2 # total number of models
-total_epoch = 100 # total epoch
-lr = 0.001 # initial learning rate
+total_epoch = 50 # total epoch
+lr = 0.01 # initial learning rate
 
 for s in range(model_num):
     # fix random seed
