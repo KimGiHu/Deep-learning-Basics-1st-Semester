@@ -22,14 +22,14 @@
 0.001      |  97.15 |  96.44  | 96.38  | 96.36  |
 
 2. change the step size for increasing the accuracy (step size : 30 -> 20 / 30 -> 15)
-1) step size : 30 -> 20
+  1) step size : 30 -> 20
 
-- No ensemble : 96.32%
+  - No ensemble : 96.32%
 
-- Ensemble : 96.86%
+  - Ensemble : 96.86%
 
-2) step size : 30 -> 15
+  2) step size : 30 -> 15
 
-- No ensemble : 96.37%
+  - No ensemble : 96.37%
 
-- Ensemble : 96.87%
+  - Ensemble : 96.87%
