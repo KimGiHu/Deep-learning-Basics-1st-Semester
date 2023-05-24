@@ -21,6 +21,7 @@
 0.01    |  97.16 |  97.15  | 97.15  | 97.14  | 
 0.001      |  97.15 |  96.44  | 96.38  | 96.36  |
 
+
 2. change the step size for increasing the accuracy (step size : 30 -> 20 / 30 -> 15)
 
   (1) step size : 30 -> 20
