@@ -25,7 +25,7 @@
 1) step size : 30 -> 20
 
 - No ensemble : 96.32%
-- 
+
 - Ensemble : 96.86%
 
 2) step size : 30 -> 15
