@@ -35,3 +35,15 @@
   - No ensemble : 96.37%
 
   - Ensemble : 96.87%
+
+  (3) step size : 30 -> 45
+
+  - No ensemble : 96.19%
+
+  - Ensemble : 96.87%
+
+  (4) step size : 30 -> 60
+
+  - No ensemble : 96.19%
+
+  - Ensemble : 96.87%
