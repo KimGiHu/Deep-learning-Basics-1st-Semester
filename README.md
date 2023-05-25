@@ -30,26 +30,5 @@
 no ensemble    |  96.3 |  96.37  | 96.32  | 96.19  |  96.19   |
 ensemble      |  97.16 |  96.86  | 96.87  | 96.87  |  96.87   |
 
-  (1) step size : 30 -> 20
-
-  - No ensemble : 96.32%
-
-  - Ensemble : 96.86%
-
-  (2) step size : 30 -> 15
-
-  - No ensemble : 96.37%
-
-  - Ensemble : 96.87%
-
-  (3) step size : 30 -> 45
-
-  - No ensemble : 96.19%
-
-  - Ensemble : 96.87%
-
-  (4) step size : 30 -> 60
-
-  - No ensemble : 96.19%
-
-  - Ensemble : 96.87%
+- - - - 
+중간 점검(5/25) : 1과2의 결과로부터 큰 진전이 없음을 확인할 수 있었습니다. 따라서 model size를 한번 바뀌어서 시도해보았습니다. 
