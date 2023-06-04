@@ -7,7 +7,7 @@ import timm
 import random
 import numpy as np
 
-model_num = 2 # total number of models
+model_num = 10 # total number of models
 total_epoch = 50 # total epoch
 lr = 0.01 # initial learning rate
 
@@ -100,5 +100,5 @@ for s in range(model_num):
     print('Finished Training')
 
     # Save the checkpoint of the last model
-    PATH = './resnet18_cifar10_%f_%d.pth' % (lr, seed_number)
+    PATH = './data/results/resnet18_cifar10_%d_%f_%d.pth' % (model_num, lr, seed_number)
     torch.save(model.state_dict(), PATH)
