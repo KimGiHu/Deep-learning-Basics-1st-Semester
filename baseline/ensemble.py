@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 import torch.nn as nn
 import timm
 
-model_num = 2
+model_num = 10
 lr = 0.01
 
 # Check if GPU is available
@@ -27,7 +27,7 @@ models = []
 for i in range(model_num):
     # Define the ResNet-18 model with pre-trained weights
     model = timm.create_model('resnet18', num_classes=10)
-    model.load_state_dict(torch.load(f"resnet18_cifar10_%f_%d.pth" % (lr, i)))  # Load the trained weights
+    model.load_state_dict(torch.load(f"./data/results/resnet18_cifar10_%d_%f_%d.pth" % (model_num, lr, i)))  # Load the trained weights
     model.eval()  # Set the model to evaluation mode
     model = model.to(device)  # Move the model to the GPU
     models.append(model)
