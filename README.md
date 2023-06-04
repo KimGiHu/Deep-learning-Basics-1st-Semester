@@ -37,3 +37,5 @@ model_size = 3, Accuracy = 97.09%
 
 model_size = 5, Accuracy = 97.16%
 
+model_size = 10, Accuracy = 97.21%
+
