@@ -33,13 +33,13 @@ ensemble      |  97.16 |  96.86  | 96.87  | 96.87  |  96.87   |
 - - - - 
 중간 점검(5/25) : 1과2의 결과로부터 큰 진전이 없음을 확인할 수 있었습니다. 따라서 model size를 한번 바뀌어서 시도해보았습니다. 
 
-model_size = 3, Accuracy = 97.09%
+model_nums = 3, Accuracy = 97.09%
 
-model_size = 5, Accuracy = 97.16%
+model_nums = 5, Accuracy = 97.16%
 
-model_size = 10, Accuracy = 97.21%
+model_nums = 10, Accuracy = 97.21%
 
-model_size = 25, Accuracy = 97.17%
+model_nums = 25, Accuracy = 97.17%
 
 - - - - 
 최종 결과 : 모델사이즈를 2에서 10으로 변경하고서, 기존의 baseline code를 돌린것이 최적의 결과 값이 나왔습니다.
