@@ -38,6 +38,9 @@ model_size = 3, Accuracy = 97.09%
 model_size = 5, Accuracy = 97.16%
 
 model_size = 10, Accuracy = 97.21%
+
+model_size = 25, Accuracy = 97.17%
+
 - - - - 
 최종 결과 : 모델사이즈를 2에서 10으로 변경하고서, 기존의 baseline code를 돌린것이 최적의 결과 값이 나왔습니다.
 
